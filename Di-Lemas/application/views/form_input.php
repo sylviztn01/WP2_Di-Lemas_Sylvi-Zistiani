@@ -19,6 +19,7 @@ Form Input Data Siswa
 </tr>
 <tr>
 <th>Nama Siswa</th>
+<br>
 <th>:</th>
 <td>
 <input type="text" name="nama" id="nama">
@@ -26,6 +27,7 @@ Form Input Data Siswa
 </tr>
 <tr>
 <th>NIS</th>
+<br>
 <td>:</td>
 <td>
 <input type="text" name="nis" id="nis">
@@ -33,6 +35,7 @@ Form Input Data Siswa
 </tr>
 <tr>
 <th>Kelas</th>
+<br>
 <td>:</td>
 <td>
 <input type="text" name="kelas" id="kelas">
@@ -40,6 +43,7 @@ Form Input Data Siswa
 </tr>
 <tr>
 <th>Tanggal Lahir</th>
+<br>
 <td>:</td>
 <td>
 <input type="text" name="tgl" id="tgl">
@@ -47,6 +51,7 @@ Form Input Data Siswa
 </tr>
 <tr>
 <th>Tempat Lahir</th>
+<br>
 <td>:</td>
 <td>
 <input type="text" name="tempat" id="tempat">
@@ -54,6 +59,7 @@ Form Input Data Siswa
 </tr>
 <tr>
 <th>Alamat</th>
+<br>
 <td>:</td>
 <td>
 <input type="text" name="alamat" id="alamat">
@@ -64,20 +70,20 @@ Form Input Data Siswa
         Jenis Kelamin
     </th>
     <td>:</td>
+    <br>
     <td>
-    <input type="radio" name="gender" id="gender">
-    <option value="Male">Male</option>
-    <option value="Female">Female</option>
-    <option value="Male">Male</option>
+    <input type="radio"name="gender" value="Male">Male
+    <input type="radio"name="gender" value="Female">Female
     </td>
 </tr>
 <tr>
 <th>Agama</th>
 <td>:</td>
+<br>
 <td>
 <select name="agama" id="agama">
 <option value="">Pilih Agama</option>
-<option value="islam">Islam</option>
+<option value="Islam">Islam</option>
 <option value="kristen">Kristen</option>
 <option value="katolik">Katolik</option>
 <option value="budha">Budha</option>

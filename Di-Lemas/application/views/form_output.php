@@ -12,12 +12,13 @@ Tampil Data Siswa
 </tr>
 <tr>
 <td colspan="3">
-<hr>
+<tr>
 </td>
 </tr>
 <tr>
 <th>Nama Siswa</th>
 <th>:</th>
+<br>
 <td>
 <?= $nama; ?>
 </td>
@@ -25,6 +26,7 @@ Tampil Data Siswa
 <tr>
 <td>NIS</td>
 <td>:</td>
+<br>
 <td>
 <?= $nis; ?>
 </td>
@@ -32,12 +34,14 @@ Tampil Data Siswa
 <tr>
 <td>Kelas</td>
 <td>:</td>
+<br>
 <td>
 <?= $kelas; ?>
 </td>
 </tr>
 <tr>
 <td>Tanggal Lahir</td>
+<br>
 <td>:</td>
 <td>
 <?= $tgl; ?>
@@ -45,6 +49,7 @@ Tampil Data Siswa
 </tr>
 <tr>
 <td>Tempat Lahir</td>
+<br>
 <td>:</td>
 <td>
 <?= $tempat; ?>
@@ -52,6 +57,7 @@ Tampil Data Siswa
 </tr>
 <tr>
 <td>Alamat</td>
+<br>
 <td>:</td>
 <td>
 <?= $alamat; ?>
@@ -60,6 +66,7 @@ Tampil Data Siswa
 <tr>
 <td>Jenis Kelamin</td>
 <td>:</td>
+<br>
 <td>
 <?= $gender; ?>
 </td>
@@ -67,10 +74,13 @@ Tampil Data Siswa
 <tr>
 <td>Agama</td>
 <td>:</td>
+<br>
 <td>
 <?= $agama; ?>
 </td>
 </tr>
+<br>
+<br>
 <tr>
 <td colspan="3" align="center">
 <a href="<?= base_url('datasiswa');
